@@ -5,7 +5,7 @@ pipeline{
         maven "MAVEN3.9"
     }
     environment {
-        SNAP_REPO = 'vprfile-snapshort'
+        SNAP_REPO = 'vprofile-snapshort'
         NEXUS_USER = 'admin'
         NEXUS_PASS = 'admin123'
         RELEASE_REPO = 'vprofile-release'
